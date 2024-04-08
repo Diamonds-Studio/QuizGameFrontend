@@ -2,8 +2,29 @@
   
   <div class="Home">
   <div class="logoHome">
-    <img src="QuizGameFrontend/quiz-game/src/img/home/logo.png" alt="">
+    <img src="QuizGameFrontend/quiz-game/src/img/home/LogoFile.jpg" alt="">
   </div>
+  <div class="logoText">
+    <p>Where Equations Clash and Algorithms Due</p>
+
+  </div>
+  <div class="imgefotoMeneger">
+  <div class="imgefoto">
+
+  </div>
+</div>
+<div class="RegisterDiscordMeneger">
+<button class="RegisterDiscord">
+  <img src="QuizGameFrontend/quiz-game/src/img/home/Discord.png" alt="">
+  <p>Sigh in with Discord</p>
+</button>
+</div>
+<div class="MadeTextMeneger">
+<div class="Madetext">
+  <p>Made in exchange for the abolition of taxes.</p>
+  <p>MathBattle</p>
+</div>
+</div>
   </div>
 </template>
 
