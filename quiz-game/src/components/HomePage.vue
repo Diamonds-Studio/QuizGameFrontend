@@ -2,7 +2,7 @@
   
   <div class="Home">
   <div class="logoHome">
-    <img src="QuizGameFrontend/quiz-game/src/img/home/LogoFile.jpg" alt="">
+    <img src="../img/home/Logo.png" alt="">
   </div>
   <div class="logoText">
     <p>Where Equations Clash and Algorithms Due</p>
@@ -15,7 +15,7 @@
 </div>
 <div class="RegisterDiscordMeneger">
 <button class="RegisterDiscord">
-  <img src="QuizGameFrontend/quiz-game/src/img/home/Discord.png" alt="">
+  <img src="../img/home/Discord.png" alt="">
   <p>Sigh in with Discord</p>
 </button>
 </div>
