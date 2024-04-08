@@ -1,0 +1,65 @@
+
+.logoHome img {
+    height: 98px;
+    width: 174px;
+}
+.logoHome {
+    justify-content: center;
+    display: flex;
+    margin-top: 14vh;
+}
+.logoText {
+    justify-content: center;
+    display: flex;
+    font-family: 'Regular';
+}
+.logoText p {
+    font-family: 'Regular';
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 1px;
+}
+.imgefotoMeneger {
+    justify-content: center;
+    display: flex;
+    margin-top:71px;
+}
+.imgefoto {
+    width: 320px;
+    height: 162px;
+    background-color: #C4C4C4;
+    border-radius: 15px;
+}
+.RegisterDiscord {
+    justify-content: center;
+    display: flex;
+    width: 199px;
+    height: 42px;
+    background-color: #5865F2;
+    border-radius: 14px;
+    margin-top: 18px;
+    color: white;
+    
+    border: none;
+}
+.RegisterDiscordMeneger {
+    justify-content: center;
+    display: flex;
+}
+.RegisterDiscord img {
+    width: 32px;
+    height: 32px;
+}
+.MadeTextMeneger {
+    justify-content: center;
+    display: flex;
+}
+.Madetext {
+    align-items: center;
+    line-height: 1px;
+    display: flex;
+    margin-top: 33vh;
+    color: white;
+    flex-direction: column;
+}
+
