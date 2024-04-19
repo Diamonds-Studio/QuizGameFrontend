@@ -31,6 +31,8 @@
     border-radius: 15px;
 }
 .RegisterDiscord {
+    align-content: center;
+    align-items: center;
     justify-content: center;
     display: flex;
     width: 199px;
