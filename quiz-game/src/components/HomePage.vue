@@ -14,10 +14,12 @@
   </div>
 </div>
 <div class="RegisterDiscordMeneger">
-<button class="RegisterDiscord">
-  <img src="../img/home/Discord.png" alt="">
-  <p>Sigh in with Discord</p>
-</button>
+  <button class="RegisterDiscord">
+    <a href="https://discord.com/oauth2/authorize?client_id=1227686332260946000&response_type=code&redirect_uri=https%3A%2F%2Fquiz-game-three-cyan.vercel.app%2F&scope=identify" target="_blank">
+      <img src="../img/home/Discord.png" alt="">
+      <p>Sign in with Discord</p>
+    </a>
+  </button>
 </div>
 <div class="MadeTextMeneger">
 <div class="Madetext">
@@ -37,6 +39,8 @@ export default {
     msg: String
   }
 }
+
+
 </script>
 <style >
 body {
