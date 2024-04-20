@@ -44,21 +44,6 @@
     
     border: none;
 }
-.RegisterDiscord a {
-    text-decoration: none;
-    align-content: center;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    width: 199px;
-    height: 42px;
-   
-   
-   
-    color: white;
-    
-    border: none;
-}
 .RegisterDiscordMeneger {
     justify-content: center;
     display: flex;
