@@ -58,6 +58,24 @@ export default {
       let authCode = params.get("code");
 
       console.log(authCode);
+      const myHeaders = new Headers();
+      myHeaders.append("Content-Type", "application/json");
+
+      const raw = JSON.stringify({
+       "code": "bDJyET4nAhYgCTzkna3o5cuLLOab8v"
+      });
+
+      const requestOptions = {
+      method: "POST",
+      headers: myHeaders,
+      body: raw,
+    redirect: "follow"
+      };
+
+fetch("https://rafaelchasman.ru/Login", requestOptions)
+  .then((response) => response.text())
+  .then((result) => console.log(result))
+  .catch((error) => console.error(error));
     } catch (error) {
       console.error("Auth Code error:", error);
     }
