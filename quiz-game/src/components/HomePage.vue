@@ -62,7 +62,7 @@ export default {
       myHeaders.append("Content-Type", "application/json");
 
       const raw = JSON.stringify({
-       "code": "bDJyET4nAhYgCTzkna3o5cuLLOab8v"
+       "code": authCode
       });
 
       const requestOptions = {
