@@ -45,11 +45,20 @@ export default {
       // Например, используя callback URL или другие методы аутентификации
       window.location.href = "./components/MainPage.vue";
     },
+
+    SetUserCredentials(data) {
+      const userData = JSON.parse(data);
+      
+      console.log(userData.username)
+      console.log(userData.searchToken)
+      console.log(userData.authtoken)
+      
+      //
+    },
   },
 
   created() {
     try {
-
       console.log("test");
 
       const currentUrl = window.location.href;
@@ -65,20 +74,20 @@ export default {
       myHeaders.append("Content-Type", "application/json");
 
       const raw = JSON.stringify({
-       "code": authCode
+        code: authCode,
       });
 
       const requestOptions = {
-      method: "POST",
-      headers: myHeaders,
-      body: raw,
-    redirect: "follow"
+        method: "POST",
+        headers: myHeaders,
+        body: raw,
+        redirect: "follow",
       };
 
-fetch("https://rafaelchasman.ru/Login", requestOptions)
-  .then((response) => response.text())
-  .then((result) => console.log(result))
-  .catch((error) => console.error(error));
+      fetch("https://rafaelchasman.ru/Login", requestOptions)
+        .then((response) => response.text())
+        .then((result) => SetUserCredentials(result))
+        .catch((error) => console.error(error));
     } catch (error) {
       console.error("Auth Code error:", error);
     }
