@@ -49,6 +49,9 @@ export default {
 
   created() {
     try {
+
+      console.log("test");
+
       const currentUrl = window.location.href;
 
       const url = new URL(currentUrl);
